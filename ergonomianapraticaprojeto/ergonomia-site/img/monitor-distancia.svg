@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Medidas da postura sentada ao computador</title>
+<desc id="d">Vista lateral com distância até a tela, topo da tela na altura dos olhos, cotovelo e joelho a cerca de 90 graus e pés apoiados.</desc>
+<rect width="700" height="460" fill="#FFFFFF"/>
+<line x1="40" y1="420" x2="660" y2="420" stroke="#7185A8" stroke-width="4"/>
+<g stroke="#1A2751" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M200 170L190 300L300 300L300 410L335 410"/><path d="M200 185L262 255L350 250"/></g>
+<circle cx="205" cy="130" r="32" fill="#1A2751"/>
+<path d="M165 215V300M165 300H320M240 300V420" stroke="#7185A8" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M330 262H600" stroke="#344879" stroke-width="10"/><path d="M590 262V420" stroke="#344879" stroke-width="8"/>
+<rect x="395" y="251" width="70" height="8" rx="3" fill="#7185A8"/>
+<rect x="570" y="135" width="16" height="115" rx="4" fill="#0A1024"/><rect x="575" y="250" width="6" height="12" fill="#0A1024"/>
+<line x1="237" y1="130" x2="570" y2="130" stroke="#8E2B44" stroke-width="3" stroke-dasharray="8 6"/>
+<g stroke="#8E2B44" stroke-width="3" fill="none"><path d="M245 95H562M245 85v20M562 85v20"/></g>
+<g font-size="20" fill="#0A1024">
+<text x="300" y="80" font-weight="bold" fill="#8E2B44">50 a 70 cm</text>
+<text x="30" y="40" font-weight="bold">Topo da tela na altura dos olhos</text><text x="30" y="64">ou um pouco abaixo</text>
+<text x="275" y="205">Cotovelo ≈ 90°</text>
+<text x="340" y="345">Joelhos ≈ 90°</text>
+<text x="340" y="445" font-weight="bold">Pés apoiados no chão ou em apoio</text>
+</g>
+<path d="M240 232q18 4 26 20" stroke="#8E2B44" stroke-width="3" fill="none"/>
+</svg>

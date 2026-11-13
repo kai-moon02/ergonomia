@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Principais tags, códigos e recursos usados no site.">
+  <title>Recursos | Ergonomia na Prática</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Ir para o conteúdo</a>
+  <header class="topo">
+    <div class="topo-interno">
+      <a class="logo" href="../index.html">Ergonomia na Prática</a>
+      <button id="btn-menu" class="btn-menu" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav id="menu" class="menu" aria-label="Menu principal">
+        <ul>
+<li><a href="../index.html">Início</a></li>
+<li><a href="conceitos.html">Conceitos</a></li>
+<li><a href="ambiente.html">Ambiente</a></li>
+<li><a href="posto.html">Posto de trabalho</a></li>
+<li><a href="pausas.html">Pausas</a></li>
+<li><a href="legislacao.html">Legislação</a></li>
+<li class="submenu-item"><button id="btn-mais" class="btn-mais" type="button" aria-expanded="false" aria-controls="submenu">Mais ▾</button>
+<ul id="submenu" class="submenu">
+<li><a href="imagens.html">Imagens</a></li>
+<li><a href="integrantes.html">Integrantes</a></li>
+<li><a href="referencias.html">Referências</a></li>
+<li><a href="recursos.html" class="ativo" aria-current="page">Recursos</a></li>
+<li><a href="conclusao.html">Conclusão</a></li>
+</ul></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="conteudo">
+
+
+    <h1>Principais tags (códigos) e recursos usados</h1>
+
+    <section>
+      <h2>Estrutura de pastas</h2>
+      <pre class="codigo">ergonomia-site/
+├── index.html
+├── paginas/        (demais páginas HTML)
+├── css/style.css   (visual e paleta de cores)
+├── js/script.js    (menu, ferramentas dos 3 itens, timer, perguntas, zoom)
+├── img/            (imagens PNG e ilustrações SVG)
+└── docs/           (planejamento e links da legislação)</pre>
+    </section>
+
+    <section>
+      <h2>Principais tags HTML</h2>
+      <div class="tabela-rolagem">
+      <table>
+        <caption>Quadro 6 – Tags HTML mais usadas</caption>
+        <thead><tr><th>Tag</th><th>Para que serve</th></tr></thead>
+        <tbody>
+          <tr><td><code>&lt;!DOCTYPE html&gt;</code></td><td>Indica que o documento é HTML5.</td></tr>
+          <tr><td><code>&lt;html lang="pt-BR"&gt;</code></td><td>Raiz da página e idioma.</td></tr>
+          <tr><td><code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>, <code>&lt;meta&gt;</code>, <code>&lt;link&gt;</code></td><td>Informações da página, título e ligação com o CSS.</td></tr>
+          <tr><td><code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code></td><td>Organizam a estrutura da página.</td></tr>
+          <tr><td><code>&lt;h1&gt;</code> a <code>&lt;h3&gt;</code>, <code>&lt;p&gt;</code></td><td>Títulos e parágrafos.</td></tr>
+          <tr><td><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;li&gt;</code></td><td>Listas.</td></tr>
+          <tr><td><code>&lt;a href="..."&gt;</code></td><td>Links entre páginas e para sites externos.</td></tr>
+          <tr><td><code>&lt;img src="..." alt="..."&gt;</code></td><td>Imagens, com texto alternativo para acessibilidade.</td></tr>
+          <tr><td><code>&lt;figure&gt;</code>, <code>&lt;figcaption&gt;</code></td><td>Figura com legenda (padrão ABNT).</td></tr>
+          <tr><td><code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, <code>&lt;td&gt;</code></td><td>Tabelas e quadros.</td></tr>
+          <tr><td><code>&lt;button&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;label&gt;</code></td><td>Botões e campos interativos.</td></tr>
+          <tr><td><code>&lt;script src="..."&gt;</code></td><td>Liga o arquivo JavaScript.</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Exemplos de código</h2>
+      <h3>HTML</h3>
+      <pre class="codigo">&lt;figure&gt;
+  &lt;figcaption&gt;Figura 1 – Título&lt;/figcaption&gt;
+  &lt;img src="../img/postura-5-pontos.png" alt="Descrição"&gt;
+  &lt;p&gt;Fonte: URL&lt;/p&gt;
+&lt;/figure&gt;</pre>
+      <h3>CSS (variáveis de cor)</h3>
+      <pre class="codigo">:root {
+  --azul-600: #344879;
+  --vinho-700: #8E2B44;
+}
+.botao { background: var(--azul-600); transition: background .3s; }
+.botao:hover { background: var(--vinho-700); }</pre>
+      <h3>JavaScript (abrir e fechar o menu)</h3>
+      <pre class="codigo">botaoMenu.addEventListener('click', function () {
+  menu.classList.toggle('aberto');
+});</pre>
+    </section>
+
+    <section>
+      <h2>Materiais e recursos usados</h2>
+      <ul class="lista-destaque">
+        <li>HTML5, CSS3 e JavaScript puro, sem bibliotecas nem banco de dados.</li>
+        <li>Editor de código e navegador para testar.</li>
+        <li>Paleta definida pela equipe, misturando azul e vinho: os botões são azuis e mudam para vinho ao passar o mouse, clicar ou quando o resultado pede ajuste.</li>
+        <li>Imagens de exemplo escolhidas pela equipe e ilustrações SVG feitas para o projeto, com fonte indicada em cada figura.</li>
+        <li>Ferramentas em JavaScript: avaliação ambiental, medição do posto, timer Pomodoro e rotina de pausas.</li>
+        <li>Textos baseados na IEA (2020) e na legislação brasileira, conforme as referências.</li>
+        <li>Assistente de IA (Claude) usado para gerar a estrutura inicial do código; conteúdo e referências revisados pela equipe.</li>
+      </ul>
+    </section>
+
+    <div class="pagina-nav"><a class="botao botao-claro" href="referencias.html">← Referências</a><a class="botao" href="conclusao.html">Conclusão →</a></div>
+  
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto acadêmico sobre ergonomia e legislação brasileira. Normas de formatação: ABNT NBR 6023, 10520 e 14724.</p>
+    <p class="rodape-links"><a href="../index.html">Início</a> | <a href="conceitos.html">Conceitos</a> | <a href="ambiente.html">Ambiente</a> | <a href="posto.html">Posto de trabalho</a> | <a href="pausas.html">Pausas</a> | <a href="legislacao.html">Legislação</a> | <a href="imagens.html">Imagens</a> | <a href="integrantes.html">Integrantes</a> | <a href="referencias.html">Referências</a> | <a href="recursos.html">Recursos</a> | <a href="conclusao.html">Conclusão</a></p>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Ciclo da técnica Pomodoro</title>
+<desc id="d">Quatro períodos de foco de 25 minutos separados por pausas de 5 minutos e uma pausa longa de 15 a 30 minutos no final.</desc>
+<rect width="960" height="230" fill="#FFFFFF"/>
+<g font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+<rect x="10" y="40" width="140" height="80" rx="10" fill="#344879"/><text x="80" y="90">25 min</text>
+<rect x="156" y="40" width="64" height="80" rx="10" fill="#B23C59"/><text x="188" y="90" font-size="19">5 min</text>
+<rect x="226" y="40" width="140" height="80" rx="10" fill="#344879"/><text x="296" y="90">25 min</text>
+<rect x="372" y="40" width="64" height="80" rx="10" fill="#B23C59"/><text x="404" y="90" font-size="19">5 min</text>
+<rect x="442" y="40" width="140" height="80" rx="10" fill="#344879"/><text x="512" y="90">25 min</text>
+<rect x="588" y="40" width="64" height="80" rx="10" fill="#B23C59"/><text x="620" y="90" font-size="19">5 min</text>
+<rect x="658" y="40" width="140" height="80" rx="10" fill="#344879"/><text x="728" y="90">25 min</text>
+<rect x="804" y="40" width="146" height="80" rx="10" fill="#6D1D32"/><text x="877" y="90" font-size="20">15–30 min</text>
+</g>
+<g font-size="20" fill="#0A1024">
+<rect x="250" y="170" width="24" height="24" rx="5" fill="#344879"/><text x="282" y="190">Foco</text>
+<rect x="390" y="170" width="24" height="24" rx="5" fill="#B23C59"/><text x="422" y="190">Pausa curta</text>
+<rect x="590" y="170" width="24" height="24" rx="5" fill="#6D1D32"/><text x="622" y="190">Pausa longa</text>
+</g></svg>

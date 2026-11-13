@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Visão integrada da ergonomia</title>
+<desc id="d">Três círculos sobrepostos: fatores cognitivos, físicos e organizacionais, com FH/E no centro.</desc>
+<rect width="960" height="560" fill="#FFFFFF"/>
+<circle cx="480" cy="205" r="165" fill="#B7C4D9" fill-opacity=".8" stroke="#344879" stroke-width="3"/>
+<circle cx="370" cy="355" r="165" fill="#E07A94" fill-opacity=".7" stroke="#8E2B44" stroke-width="3"/>
+<circle cx="590" cy="355" r="165" fill="#7185A8" fill-opacity=".7" stroke="#1A2751" stroke-width="3"/>
+<g fill="#0A1024" font-size="26" font-weight="bold" text-anchor="middle">
+<text x="480" y="130">Fatores</text><text x="480" y="160">cognitivos</text>
+<text x="305" y="425">Fatores</text><text x="305" y="455">físicos</text>
+<text x="615" y="425" font-size="23">Fatores</text><text x="615" y="453" font-size="23">organizacionais</text>
+</g>
+<circle cx="480" cy="310" r="46" fill="#1A2751"/>
+<text x="480" y="320" fill="#FFFFFF" font-size="28" font-weight="bold" text-anchor="middle">FH/E</text>
+<g fill="#0A1024" font-size="20">
+<text x="30" y="70">Percepção</text><text x="30" y="98">Memória</text><text x="30" y="126">Raciocínio</text><text x="30" y="154">Resposta motora</text>
+<text x="690" y="70">Interação humano-</text><text x="690" y="98">computador</text><text x="690" y="126">Comunicação</text><text x="690" y="154">Trabalho em time</text>
+<text x="20" y="420">Anatomia humana</text><text x="20" y="448">Fisiologia</text><text x="20" y="476">Antropometria</text><text x="20" y="504">Biomecânica</text>
+<text x="765" y="380">Participação</text><text x="765" y="408">Cooperação</text><text x="765" y="436">Sistemas</text><text x="765" y="464">sociotécnicos</text><text x="765" y="492">Ambiente</text><text x="765" y="520">interno/externo</text>
+</g>
+</svg>

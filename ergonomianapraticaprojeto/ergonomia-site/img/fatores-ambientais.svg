@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" font-family="Arial, Helvetica, sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Quatro fatores ambientais</title>
+<desc id="d">Iluminação, ruído, temperatura e ventilação, cada um com seu valor de referência.</desc>
+<rect width="960" height="330" fill="#FFFFFF"/>
+<g text-anchor="middle">
+<g transform="translate(120,0)"><circle cy="100" r="62" fill="#1A2751"/>
+<circle cy="92" r="22" fill="#F7D6DC"/><rect x="-10" y="112" width="20" height="12" rx="3" fill="#B7C4D9"/>
+<g stroke="#F7D6DC" stroke-width="5" stroke-linecap="round"><path d="M0 52v10M-34 66l7 7M34 66l-7 7M-44 94h10M44 94h-10"/></g>
+<text y="210" font-size="26" font-weight="bold" fill="#0A1024">Iluminação</text><text y="245" font-size="20" fill="#1A2751">cerca de 500 lux</text><text y="272" font-size="16" fill="#344879">(escritório, NHO 11)</text></g>
+<g transform="translate(360,0)"><circle cy="100" r="62" fill="#6D1D32"/>
+<path d="M-30 86h14l22-18v64l-22-18h-14z" fill="#F7D6DC"/>
+<g fill="none" stroke="#F7D6DC" stroke-width="5" stroke-linecap="round"><path d="M16 82q10 18 0 36M28 72q18 28 0 56"/></g>
+<text y="210" font-size="26" font-weight="bold" fill="#0A1024">Ruído</text><text y="245" font-size="20" fill="#1A2751">até 65 dB(A)</text><text y="272" font-size="16" fill="#344879">(caso geral, NR-17 17.8.4.1)</text></g>
+<g transform="translate(600,0)"><circle cy="100" r="62" fill="#344879"/>
+<rect x="-9" y="56" width="18" height="60" rx="9" fill="#F2F4F8"/><circle cy="122" r="15" fill="#E07A94"/><rect x="-4" y="84" width="8" height="38" fill="#E07A94"/>
+<text y="210" font-size="26" font-weight="bold" fill="#0A1024">Temperatura</text><text y="245" font-size="20" fill="#1A2751">18 a 25 °C</text><text y="272" font-size="16" fill="#344879">(ambiente climatizado, 17.8.4.2)</text></g>
+<g transform="translate(840,0)"><circle cy="100" r="62" fill="#8E2B44"/>
+<g fill="none" stroke="#F7D6DC" stroke-width="5" stroke-linecap="round"><path d="M-34 84h42a10 10 0 1 0-10-10M-34 102h56a10 10 0 1 1-10 10M-34 120h30"/></g>
+<text y="210" font-size="26" font-weight="bold" fill="#0A1024">Ventilação</text><text y="245" font-size="20" fill="#1A2751">sem vento direto</text><text y="272" font-size="16" fill="#344879">(sobre o trabalhador, 17.8.4.2.1)</text></g>
+</g></svg>
